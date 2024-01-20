@@ -1,7 +1,7 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Footer from './components/Footer/Footer'
+import NavBar from './components/NavBar/NavBar'
+import PriceOptions from './components/PriceOptions/PriceOptions'
 
 function App() {
   
@@ -9,8 +9,10 @@ function App() {
   return (
     <>
      
-      <h1 className='text-4xl text-center '>Vite + React</h1>
       
+      <NavBar></NavBar>
+      <PriceOptions></PriceOptions>
+      <Footer></Footer>
       
     </>
   )
