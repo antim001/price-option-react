@@ -6,7 +6,7 @@ const PriceOptions = () => {
           "id": 1,
           "name": "Basic Membership",
           "price": 29.99,
-          "img":'https://ibb.co/cJcC3dw',
+          "img":'https://unsplash.com/photos/grayscale-photo-of-man-working-out-sHfo3WOgGTU',
           "features": [
             "Access to basic gym facilities",
             "Limited class participation",

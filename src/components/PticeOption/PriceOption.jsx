@@ -3,17 +3,12 @@ import Feature from '../Feature/Feature';
 
 const PriceOption = ({option}) => {
     console.log(option);
-    const{name,price,img,features}=option;
+    const{name,price,features}=option;
    
     
     return (
-        <div className="relative h-[400px] w-[300px] rounded-md mx-auto  ">
-      <img
-        src={img.default}
-        alt="AirMax Pro"
-        className="z-0 h-full w-full rounded-md object-cover"
-     
-      />
+        <div className="relative h-[400px] w-[300px] rounded-md mx-auto bg-green-300 mb-4 ">
+    
       <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
       <div className="absolute bottom-4 left-4 text-left">
         <h1 className="text-lg font-semibold text-white">{name}</h1>

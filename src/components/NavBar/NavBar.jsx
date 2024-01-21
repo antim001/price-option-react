@@ -22,11 +22,11 @@ const NavBar = () => {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-            <li><a>Home</a></li>
-            <li>
+            <li className="hover:bg-green-500 "><a>Home</a></li>
+            <li className="hover:bg-green-500">
               <a href="">About</a>
             </li>
-            <li><a>Contact</a></li>
+            <li className="hover:bg-green-500"><a>Contact</a></li>
           </ul>
         </div>
         <div className="navbar-end">
